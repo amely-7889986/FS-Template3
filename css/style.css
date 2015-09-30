@@ -241,10 +241,21 @@ body{
 .column-tit span{
   height: 46px;
 }
+.column-tit span a{
+  color: #fff;
+}
+.column-tit span a:hover{
+  color: #e60012;
+  text-decoration: none;
+}
 .column-list{
   display: block;
   font-size: 14px;
   background: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .column-list li{
   line-height: 24px;
